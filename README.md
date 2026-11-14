@@ -32,6 +32,8 @@ To install by hand:
 
 4. Open a new terminal and type `#print the kernel version`.
 
+With oh-my-zsh, you can install it as a plugin instead: clone into `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/hashcmd`, add `hashcmd` to `plugins=(...)`, and export the `HASHCMD_*` settings anywhere in `~/.zshrc` (they are read when you press Enter, so order does not matter).
+
 ## Settings
 
 | Variable | Default | Meaning |
